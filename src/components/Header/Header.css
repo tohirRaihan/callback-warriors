@@ -1,0 +1,7 @@
+.header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url('../../images/binary.jpg') center center;
+    background-size: cover;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
+}
