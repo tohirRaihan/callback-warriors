@@ -9,13 +9,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Programmer.css';
 
 const Programmer = (props) => {
-    const {addToCart, programmer} = props;
-    const { name, email, company, address, image, salary } = programmer;
+    const { addToCart, programmer } = props;
+    const { name, email, company, address, image, salary, language } = programmer;
 
     return (
         <div className="col-12 col-sm-6 col-md-4">
             <div className="programmer h-100">
-                <div>
+                <div className="programmer-body">
                     <div className="picture">
                         <img
                             className="img-fluid"
@@ -26,14 +26,22 @@ const Programmer = (props) => {
                     <div className="team-content">
                         <h3 className="name">{name}</h3>
                         <h4 className="title">{company}</h4>
-                        <p>{address}</p>
+                        <p className='lead'>{address}</p>
                         <p>{email}</p>
-                        <p>${salary}</p>
                     </div>
                 </div>
 
-                <div>
-                    <button onClick={() => addToCart(programmer)} className="btn btn-warning">
+                <div className="programmer-footer w-100">
+                    <div className="programmer-cost d-flex justify-content-around">
+                        <span className="expertise text-primary fw-bold">{language}</span>
+                        <span className="salary text-success h4">
+                            $<strong className='fw-bold'>{salary}</strong>
+                        </span>
+                    </div>
+                    <button
+                        onClick={() => addToCart(programmer)}
+                        className="btn btn-warning"
+                    >
                         <FontAwesomeIcon icon={faCartPlus} /> Add to cart
                     </button>
                     <ul className="social">
