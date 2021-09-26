@@ -14,7 +14,7 @@ const Programmer = (props) => {
         programmer;
 
     return (
-        <div className="col-12 col-sm-6 col-md-4">
+        <div className="col-12 col-sm-6 col-lg-4">
             <div className="programmer h-100">
                 <div className="programmer-body">
                     <div className="picture">

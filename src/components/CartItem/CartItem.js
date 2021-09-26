@@ -12,7 +12,7 @@ const CartItem = props => {
             <div className="shopping-cart-items-info">
                 <span className="item-name">{cartItem.name}</span>
                 <span className="item-price text-primary">${cartItem.salary}</span>
-                <span className="item-quantity text-muted ms-3">
+                <span className="item-quantity text-muted ms-3 d-none d-lg-inline">
                     Quantity: 01
                 </span>
             </div>
