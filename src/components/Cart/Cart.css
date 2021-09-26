@@ -1,0 +1,22 @@
+
+.shopping-cart {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    padding: 20px;
+}
+.shopping-cart .shopping-cart-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 15px;
+}
+.shopping-cart .shopping-cart-items {
+    padding: 20px;
+}
+.shopping-cart-items .item-name {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+
