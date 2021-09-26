@@ -15,7 +15,7 @@ const Cart = (props) => {
             <div className="shopping-cart-header">
                 <span className="position-relative">
                     <FontAwesomeIcon
-                        className="position-relative"
+                        className="position-relative text-muted"
                         icon={faShoppingBag}
                         size="2x"
                     />
@@ -25,8 +25,8 @@ const Cart = (props) => {
                 </span>
 
                 <div className="shopping-cart-total">
-                    <span className="text-muted">Total:</span>
-                    <span className="text-primary"> ${total}</span>
+                    <span className="text-muted fw-bold">Total:</span>
+                    <span className="text-primary lead"> ${total}</span>
                 </div>
             </div>
 

@@ -25,10 +25,10 @@ const Shop = () => {
     return (
         <section className="shop">
             <div className="container">
-                <div className="row">
+                <div className="row g-3">
                     {/* programmers section */}
                     <div className="col-md-8 programmers">
-                        <div className="row g-4">
+                        <div className="row g-3">
                             {programmers.map((programmer) => (
                                 <Programmer key={programmer._id} programmer={programmer} addToCart={addToCart}/>
                             ))}

@@ -10,7 +10,8 @@ import './Programmer.css';
 
 const Programmer = (props) => {
     const { addToCart, programmer } = props;
-    const { name, email, company, address, image, salary, language } = programmer;
+    const { name, email, company, address, image, salary, language } =
+        programmer;
 
     return (
         <div className="col-12 col-sm-6 col-md-4">
@@ -26,16 +27,20 @@ const Programmer = (props) => {
                     <div className="team-content">
                         <h3 className="name">{name}</h3>
                         <h4 className="title">{company}</h4>
-                        <p className='lead'>{address}</p>
-                        <p>{email}</p>
+                        <p className="lead mb-0">{address}</p>
+                        <p className="fw-light fst-italic text-decoration-underline text-primary">
+                            {email}
+                        </p>
                     </div>
                 </div>
 
                 <div className="programmer-footer w-100">
-                    <div className="programmer-cost d-flex justify-content-around">
-                        <span className="expertise text-primary fw-bold">{language}</span>
-                        <span className="salary text-success h4">
-                            $<strong className='fw-bold'>{salary}</strong>
+                    <div className="programmer-cost d-flex justify-content-around align-items-center mb-2">
+                        <span className="expertise text-danger fw-bold">
+                            {language}
+                        </span>
+                        <span className="salary text-success h4 mb-0">
+                            $<strong className="fw-bold">{salary}</strong>
                         </span>
                     </div>
                     <button

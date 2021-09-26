@@ -1,10 +1,10 @@
 [
   {
     "_id": "615079a19c70f3c5c3df1c25",
-    "name": "Selma Washington",
+    "name": "Selma Washin",
     "company": "EZENTIA",
     "email": "selmawashington@ezentia.com",
-    "language": "C++",
+    "language": "javaScript",
     "address": "303 Tillary Street, Konterra",
     "image": "https://randomuser.me/api/portraits/men/61.jpg",
     "salary": 499370
@@ -14,18 +14,18 @@
     "name": "Brock Berry",
     "company": "DANCITY",
     "email": "brockberry@dancity.com",
-    "language": "javaScript",
+    "language": "C++",
     "address": "529 Highland Boulevard, Davenport",
     "image": "https://randomuser.me/api/portraits/women/45.jpg",
     "salary": 291849
   },
   {
     "_id": "615079a1206b5034a9e64ad6",
-    "name": "Carroll Rollins",
+    "name": "Carroll Rolli",
     "company": "EXOSTREAM",
     "email": "carrollrollins@exostream.com",
     "language": "Python",
-    "address": "380 Colin Place, Berwind",
+    "address": "380 Colin Place Lane, Berwind",
     "image": "https://randomuser.me/api/portraits/men/47.jpg",
     "salary": 395888
   },
