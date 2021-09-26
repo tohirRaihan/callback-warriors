@@ -12,11 +12,3 @@
 .shopping-cart .shopping-cart-items {
     padding: 20px;
 }
-.shopping-cart-items .item-name {
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 16px;
-}
-
