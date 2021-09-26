@@ -9,7 +9,6 @@ const Cart = (props) => {
         (previous, programmer) => previous + programmer.salary,
         0
     );
-    console.log(total);
 
     return (
         <div className="shopping-cart">
@@ -32,7 +31,9 @@ const Cart = (props) => {
             </div>
 
             <div className="shopping-cart-items d-flex flex-column">
-                <CartItem />
+                {cart.map((cart) => (
+                    <CartItem key={cart._id} cartItem={cart} />
+                ))}
             </div>
         </div>
     );

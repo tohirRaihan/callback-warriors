@@ -35,7 +35,7 @@ const Shop = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <Cart cart={cart} />
+                        <Cart key={cart._id} cart={cart} />
                     </div>
                 </div>
                 {/* ./row */}
